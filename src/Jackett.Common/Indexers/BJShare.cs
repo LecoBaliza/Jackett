@@ -27,6 +27,7 @@ namespace Jackett.Common.Indexers
         private readonly Dictionary<string, string> _commonSearchTerms = new Dictionary<string, string>
         {
             { "agents of shield", "Agents of S.H.I.E.L.D."}
+            { "greys anatomy", "Grey's Anatomy"}
         };
         
         public override string[] LegacySiteLinks { get; protected set; } = new string[] {
